@@ -1,0 +1,14 @@
+{
+  "name": "hotelpro",
+  "version": "1.0.0",
+  "description": "HotelPro - Complete Hotel Booking and Management Solution (MERN Stack)",
+  "scripts": {
+    "server": "node backend/server.js",
+    "client": "npm --prefix frontend run dev",
+    "seed": "npm --prefix backend run seed",
+    "build": "npm --prefix frontend run build"
+  },
+  "keywords": ["hotel", "hospitality", "mern", "booking", "jwt", "react", "bootstrap"],
+  "author": "HotelPro Team",
+  "license": "MIT"
+}
